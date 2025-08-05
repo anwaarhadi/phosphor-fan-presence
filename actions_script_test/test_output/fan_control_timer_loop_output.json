@@ -1,0 +1,1292 @@
+[
+    {
+        "name": "Chassis 0 Fan control timer loop",
+        "groups": [
+            {
+                "name": "Chassis 0 Chassis 0 proc0 core temps",
+                "interface": "xyz.openbmc_project.Sensor.Value",
+                "property": {
+                    "name": "Value"
+                }
+            },
+            {
+                "name": "Chassis 0 Chassis 0 proc1 core temps",
+                "interface": "xyz.openbmc_project.Sensor.Value",
+                "property": {
+                    "name": "Value"
+                }
+            },
+            {
+                "name": "Chassis 0 Chassis 0 proc2 core temps",
+                "interface": "xyz.openbmc_project.Sensor.Value",
+                "property": {
+                    "name": "Value"
+                }
+            },
+            {
+                "name": "Chassis 0 Chassis 0 proc3 core temps",
+                "interface": "xyz.openbmc_project.Sensor.Value",
+                "property": {
+                    "name": "Value"
+                }
+            },
+            {
+                "name": "Chassis 0 Chassis 0 proc0 ioring temp",
+                "interface": "xyz.openbmc_project.Sensor.Value",
+                "property": {
+                    "name": "Value"
+                }
+            },
+            {
+                "name": "Chassis 0 Chassis 0 proc1 ioring temp",
+                "interface": "xyz.openbmc_project.Sensor.Value",
+                "property": {
+                    "name": "Value"
+                }
+            },
+            {
+                "name": "Chassis 0 Chassis 0 proc2 ioring temp",
+                "interface": "xyz.openbmc_project.Sensor.Value",
+                "property": {
+                    "name": "Value"
+                }
+            },
+            {
+                "name": "Chassis 0 Chassis 0 proc3 ioring temp",
+                "interface": "xyz.openbmc_project.Sensor.Value",
+                "property": {
+                    "name": "Value"
+                }
+            },
+            {
+                "name": "Chassis 0 dram temps",
+                "interface": "xyz.openbmc_project.Sensor.Value",
+                "property": {
+                    "name": "Value"
+                }
+            },
+            {
+                "name": "Chassis 0 pmic temps",
+                "interface": "xyz.openbmc_project.Sensor.Value",
+                "property": {
+                    "name": "Value"
+                }
+            },
+            {
+                "name": "Chassis 0 internal memory buffer temps",
+                "interface": "xyz.openbmc_project.Sensor.Value",
+                "property": {
+                    "name": "Value"
+                }
+            },
+            {
+                "name": "Chassis 0 dram and external memory buffer temps",
+                "interface": "xyz.openbmc_project.Sensor.Value",
+                "property": {
+                    "name": "Value"
+                }
+            },
+            {
+                "name": "Chassis 0 external memory buffer temps",
+                "interface": "xyz.openbmc_project.Sensor.Value",
+                "property": {
+                    "name": "Value"
+                }
+            },
+            {
+                "name": "Chassis 0 vdd vrm temps",
+                "interface": "xyz.openbmc_project.Sensor.Value",
+                "property": {
+                    "name": "Value"
+                }
+            },
+            {
+                "name": "Chassis 0 nvme temps",
+                "interface": "xyz.openbmc_project.Sensor.Value",
+                "property": {
+                    "name": "Value"
+                }
+            },
+            {
+                "name": "Chassis 0 planar temps",
+                "interface": "xyz.openbmc_project.Sensor.Value",
+                "property": {
+                    "name": "Value"
+                }
+            },
+            {
+                "name": "Chassis 0 flett temps",
+                "interface": "xyz.openbmc_project.Sensor.Value",
+                "property": {
+                    "name": "Value"
+                }
+            },
+            {
+                "name": "Chassis 0 pcie cable card temps",
+                "interface": "xyz.openbmc_project.Sensor.Value",
+                "property": {
+                    "name": "Value"
+                }
+            }
+        ],
+        "triggers": [
+            {
+                "class": "timer",
+                "type": "repeating",
+                "interval": 2000000,
+                "preload_groups": true
+            }
+        ],
+        "actions": [
+            {
+                "name": "Chassis 0 set_net_increase_target",
+                "groups": [
+                    {
+                        "name": "Chassis 0 proc0 core temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "proc_0_core_dvfs_increase_temp",
+                "delta": 300
+            },
+            {
+                "name": "Chassis 0 set_net_increase_target",
+                "groups": [
+                    {
+                        "name": "Chassis 0 proc1 core temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "proc_1_core_dvfs_increase_temp",
+                "delta": 300
+            },
+            {
+                "name": "Chassis 0 set_net_increase_target",
+                "groups": [
+                    {
+                        "name": "Chassis 0 proc2 core temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "proc_2_core_dvfs_increase_temp",
+                "delta": 300
+            },
+            {
+                "name": "Chassis 0 set_net_increase_target",
+                "groups": [
+                    {
+                        "name": "Chassis 0 proc3 core temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "proc_3_core_dvfs_increase_temp",
+                "delta": 300
+            },
+            {
+                "name": "Chassis 0 set_net_increase_target",
+                "groups": [
+                    {
+                        "name": "Chassis 0 proc0 ioring temp",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "proc_0_ioring_dvfs_increase_temp",
+                "delta": 300
+            },
+            {
+                "name": "Chassis 0 set_net_increase_target",
+                "groups": [
+                    {
+                        "name": "Chassis 0 proc1 ioring temp",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "proc_1_ioring_dvfs_increase_temp",
+                "delta": 300
+            },
+            {
+                "name": "Chassis 0 set_net_increase_target",
+                "groups": [
+                    {
+                        "name": "Chassis 0 proc2 ioring temp",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "proc_2_ioring_dvfs_increase_temp",
+                "delta": 300
+            },
+            {
+                "name": "Chassis 0 set_net_increase_target",
+                "groups": [
+                    {
+                        "name": "Chassis 0 proc3 ioring temp",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "proc_3_ioring_dvfs_increase_temp",
+                "delta": 300
+            },
+            {
+                "name": "Chassis 0 set_net_increase_target",
+                "groups": [
+                    {
+                        "name": "Chassis 0 dram temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "dram_dvfs_increase_temp",
+                "delta": 100
+            },
+            {
+                "name": "Chassis 0 set_net_increase_target",
+                "groups": [
+                    {
+                        "name": "Chassis 0 pmic temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "pmic_dvfs_increase_temp",
+                "delta": 100
+            },
+            {
+                "name": "Chassis 0 set_net_increase_target",
+                "groups": [
+                    {
+                        "name": "Chassis 0 internal memory buffer temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "intmb_dvfs_increase_temp",
+                "delta": 100
+            },
+            {
+                "name": "Chassis 0 set_net_increase_target",
+                "groups": [
+                    {
+                        "name": "Chassis 0 dram and external memory buffer temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "dram_extmb_dvfs_increase_temp",
+                "delta": 200
+            },
+            {
+                "name": "Chassis 0 set_net_increase_target",
+                "groups": [
+                    {
+                        "name": "Chassis 0 external memory buffer temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "extmb_dvfs_increase_temp",
+                "delta": 200
+            },
+            {
+                "name": "Chassis 0 set_net_increase_target",
+                "groups": [
+                    {
+                        "name": "Chassis 0 vdd vrm temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state": 82.0,
+                "delta": 300
+            },
+            {
+                "name": "Chassis 0 set_net_increase_target",
+                "groups": [
+                    {
+                        "name": "Chassis 0 nvme temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state": 58.0,
+                "delta": 200
+            },
+            {
+                "name": "Chassis 0 set_net_increase_target",
+                "groups": [
+                    {
+                        "name": "Chassis 0 planar temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state": 65.0,
+                "delta": 255
+            },
+            {
+                "name": "Chassis 0 set_net_increase_target",
+                "groups": [
+                    {
+                        "name": "Chassis 0 flett temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state": 80.0,
+                "delta": 200
+            },
+            {
+                "name": "Chassis 0 set_net_increase_target",
+                "groups": [
+                    {
+                        "name": "Chassis 0 pcie cable card temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state": 70.0,
+                "delta": 255
+            },
+            {
+                "name": "Chassis 0 set_net_decrease_target",
+                "groups": [
+                    {
+                        "name": "Chassis 0 proc0 core temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "proc_0_core_dvfs_decrease_temp",
+                "delta": 50
+            },
+            {
+                "name": "Chassis 0 set_net_decrease_target",
+                "groups": [
+                    {
+                        "name": "Chassis 0 proc1 core temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "proc_1_core_dvfs_decrease_temp",
+                "delta": 50
+            },
+            {
+                "name": "Chassis 0 set_net_decrease_target",
+                "groups": [
+                    {
+                        "name": "Chassis 0 proc2 core temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "proc_2_core_dvfs_decrease_temp",
+                "delta": 50
+            },
+            {
+                "name": "Chassis 0 set_net_decrease_target",
+                "groups": [
+                    {
+                        "name": "Chassis 0 proc3 core temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "proc_3_core_dvfs_decrease_temp",
+                "delta": 50
+            },
+            {
+                "name": "Chassis 0 set_net_decrease_target",
+                "groups": [
+                    {
+                        "name": "Chassis 0 proc0 ioring temp",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "proc_0_ioring_dvfs_decrease_temp",
+                "delta": 50
+            },
+            {
+                "name": "Chassis 0 set_net_decrease_target",
+                "groups": [
+                    {
+                        "name": "Chassis 0 proc1 ioring temp",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "proc_1_ioring_dvfs_decrease_temp",
+                "delta": 50
+            },
+            {
+                "name": "Chassis 0 set_net_decrease_target",
+                "groups": [
+                    {
+                        "name": "Chassis 0 proc2 ioring temp",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "proc_2_ioring_dvfs_decrease_temp",
+                "delta": 50
+            },
+            {
+                "name": "Chassis 0 set_net_decrease_target",
+                "groups": [
+                    {
+                        "name": "Chassis 0 proc3 ioring temp",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "proc_3_ioring_dvfs_decrease_temp",
+                "delta": 50
+            },
+            {
+                "name": "Chassis 0 set_net_decrease_target",
+                "groups": [
+                    {
+                        "name": "dram temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "dram_dvfs_decrease_temp",
+                "delta": 40
+            },
+            {
+                "name": "Chassis 0 set_net_decrease_target",
+                "groups": [
+                    {
+                        "name": "Chassis 0 pmic temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "pmic_dvfs_decrease_temp",
+                "delta": 40
+            },
+            {
+                "name": "Chassis 0 set_net_decrease_target",
+                "groups": [
+                    {
+                        "name": "Chassis 0 internal memory buffer temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "intmb_dvfs_decrease_temp",
+                "delta": 40
+            },
+            {
+                "name": "Chassis 0 set_net_decrease_target",
+                "groups": [
+                    {
+                        "name": "Chassis 0 dram and external memory buffer temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "dram_extmb_dvfs_decrease_temp",
+                "delta": 40
+            },
+            {
+                "name": "Chassis 0 set_net_decrease_target",
+                "groups": [
+                    {
+                        "name": "Chassis 0 external memory buffer temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "extmb_dvfs_decrease_temp",
+                "delta": 40
+            },
+            {
+                "name": "Chassis 0 set_net_decrease_target",
+                "groups": [
+                    {
+                        "name": "Chassis 0 vdd vrm temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state": 79.0,
+                "delta": 30
+            },
+            {
+                "name": "Chassis 0 set_net_decrease_target",
+                "groups": [
+                    {
+                        "name": "Chassis 0 nvme temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state": 55.0,
+                "delta": 40
+            },
+            {
+                "name": "Chassis 0 set_net_decrease_target",
+                "groups": [
+                    {
+                        "name": "Chassis 0 planar temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state": 60.0,
+                "delta": 80
+            },
+            {
+                "name": "Chassis 0 set_net_decrease_target",
+                "groups": [
+                    {
+                        "name": "Chassis 0 flett temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state": 75.0,
+                "delta": 80
+            },
+            {
+                "name": "Chassis 0 set_net_decrease_target",
+                "groups": [
+                    {
+                        "name": "Chassis 0 pcie cable card temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state": 65.0,
+                "delta": 80
+            }
+        ]
+    },
+    {
+        "name": "Chassis 1 Fan control timer loop",
+        "groups": [
+            {
+                "name": "Chassis 1 Chassis 1 proc0 core temps",
+                "interface": "xyz.openbmc_project.Sensor.Value",
+                "property": {
+                    "name": "Value"
+                }
+            },
+            {
+                "name": "Chassis 1 Chassis 1 proc1 core temps",
+                "interface": "xyz.openbmc_project.Sensor.Value",
+                "property": {
+                    "name": "Value"
+                }
+            },
+            {
+                "name": "Chassis 1 Chassis 1 proc2 core temps",
+                "interface": "xyz.openbmc_project.Sensor.Value",
+                "property": {
+                    "name": "Value"
+                }
+            },
+            {
+                "name": "Chassis 1 Chassis 1 proc3 core temps",
+                "interface": "xyz.openbmc_project.Sensor.Value",
+                "property": {
+                    "name": "Value"
+                }
+            },
+            {
+                "name": "Chassis 1 Chassis 1 proc0 ioring temp",
+                "interface": "xyz.openbmc_project.Sensor.Value",
+                "property": {
+                    "name": "Value"
+                }
+            },
+            {
+                "name": "Chassis 1 Chassis 1 proc1 ioring temp",
+                "interface": "xyz.openbmc_project.Sensor.Value",
+                "property": {
+                    "name": "Value"
+                }
+            },
+            {
+                "name": "Chassis 1 Chassis 1 proc2 ioring temp",
+                "interface": "xyz.openbmc_project.Sensor.Value",
+                "property": {
+                    "name": "Value"
+                }
+            },
+            {
+                "name": "Chassis 1 Chassis 1 proc3 ioring temp",
+                "interface": "xyz.openbmc_project.Sensor.Value",
+                "property": {
+                    "name": "Value"
+                }
+            },
+            {
+                "name": "Chassis 1 dram temps",
+                "interface": "xyz.openbmc_project.Sensor.Value",
+                "property": {
+                    "name": "Value"
+                }
+            },
+            {
+                "name": "Chassis 1 pmic temps",
+                "interface": "xyz.openbmc_project.Sensor.Value",
+                "property": {
+                    "name": "Value"
+                }
+            },
+            {
+                "name": "Chassis 1 internal memory buffer temps",
+                "interface": "xyz.openbmc_project.Sensor.Value",
+                "property": {
+                    "name": "Value"
+                }
+            },
+            {
+                "name": "Chassis 1 dram and external memory buffer temps",
+                "interface": "xyz.openbmc_project.Sensor.Value",
+                "property": {
+                    "name": "Value"
+                }
+            },
+            {
+                "name": "Chassis 1 external memory buffer temps",
+                "interface": "xyz.openbmc_project.Sensor.Value",
+                "property": {
+                    "name": "Value"
+                }
+            },
+            {
+                "name": "Chassis 1 vdd vrm temps",
+                "interface": "xyz.openbmc_project.Sensor.Value",
+                "property": {
+                    "name": "Value"
+                }
+            },
+            {
+                "name": "Chassis 1 nvme temps",
+                "interface": "xyz.openbmc_project.Sensor.Value",
+                "property": {
+                    "name": "Value"
+                }
+            },
+            {
+                "name": "Chassis 1 planar temps",
+                "interface": "xyz.openbmc_project.Sensor.Value",
+                "property": {
+                    "name": "Value"
+                }
+            },
+            {
+                "name": "Chassis 1 flett temps",
+                "interface": "xyz.openbmc_project.Sensor.Value",
+                "property": {
+                    "name": "Value"
+                }
+            },
+            {
+                "name": "Chassis 1 pcie cable card temps",
+                "interface": "xyz.openbmc_project.Sensor.Value",
+                "property": {
+                    "name": "Value"
+                }
+            }
+        ],
+        "triggers": [
+            {
+                "class": "timer",
+                "type": "repeating",
+                "interval": 2000000,
+                "preload_groups": true
+            }
+        ],
+        "actions": [
+            {
+                "name": "Chassis 1 set_net_increase_target",
+                "groups": [
+                    {
+                        "name": "Chassis 1 proc0 core temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "proc_0_core_dvfs_increase_temp",
+                "delta": 300
+            },
+            {
+                "name": "Chassis 1 set_net_increase_target",
+                "groups": [
+                    {
+                        "name": "Chassis 1 proc1 core temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "proc_1_core_dvfs_increase_temp",
+                "delta": 300
+            },
+            {
+                "name": "Chassis 1 set_net_increase_target",
+                "groups": [
+                    {
+                        "name": "Chassis 1 proc2 core temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "proc_2_core_dvfs_increase_temp",
+                "delta": 300
+            },
+            {
+                "name": "Chassis 1 set_net_increase_target",
+                "groups": [
+                    {
+                        "name": "Chassis 1 proc3 core temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "proc_3_core_dvfs_increase_temp",
+                "delta": 300
+            },
+            {
+                "name": "Chassis 1 set_net_increase_target",
+                "groups": [
+                    {
+                        "name": "Chassis 1 proc0 ioring temp",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "proc_0_ioring_dvfs_increase_temp",
+                "delta": 300
+            },
+            {
+                "name": "Chassis 1 set_net_increase_target",
+                "groups": [
+                    {
+                        "name": "Chassis 1 proc1 ioring temp",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "proc_1_ioring_dvfs_increase_temp",
+                "delta": 300
+            },
+            {
+                "name": "Chassis 1 set_net_increase_target",
+                "groups": [
+                    {
+                        "name": "Chassis 1 proc2 ioring temp",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "proc_2_ioring_dvfs_increase_temp",
+                "delta": 300
+            },
+            {
+                "name": "Chassis 1 set_net_increase_target",
+                "groups": [
+                    {
+                        "name": "Chassis 1 proc3 ioring temp",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "proc_3_ioring_dvfs_increase_temp",
+                "delta": 300
+            },
+            {
+                "name": "Chassis 1 set_net_increase_target",
+                "groups": [
+                    {
+                        "name": "Chassis 1 dram temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "dram_dvfs_increase_temp",
+                "delta": 100
+            },
+            {
+                "name": "Chassis 1 set_net_increase_target",
+                "groups": [
+                    {
+                        "name": "Chassis 1 pmic temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "pmic_dvfs_increase_temp",
+                "delta": 100
+            },
+            {
+                "name": "Chassis 1 set_net_increase_target",
+                "groups": [
+                    {
+                        "name": "Chassis 1 internal memory buffer temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "intmb_dvfs_increase_temp",
+                "delta": 100
+            },
+            {
+                "name": "Chassis 1 set_net_increase_target",
+                "groups": [
+                    {
+                        "name": "Chassis 1 dram and external memory buffer temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "dram_extmb_dvfs_increase_temp",
+                "delta": 200
+            },
+            {
+                "name": "Chassis 1 set_net_increase_target",
+                "groups": [
+                    {
+                        "name": "Chassis 1 external memory buffer temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "extmb_dvfs_increase_temp",
+                "delta": 200
+            },
+            {
+                "name": "Chassis 1 set_net_increase_target",
+                "groups": [
+                    {
+                        "name": "Chassis 1 vdd vrm temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state": 82.0,
+                "delta": 300
+            },
+            {
+                "name": "Chassis 1 set_net_increase_target",
+                "groups": [
+                    {
+                        "name": "Chassis 1 nvme temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state": 58.0,
+                "delta": 200
+            },
+            {
+                "name": "Chassis 1 set_net_increase_target",
+                "groups": [
+                    {
+                        "name": "Chassis 1 planar temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state": 65.0,
+                "delta": 255
+            },
+            {
+                "name": "Chassis 1 set_net_increase_target",
+                "groups": [
+                    {
+                        "name": "Chassis 1 flett temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state": 80.0,
+                "delta": 200
+            },
+            {
+                "name": "Chassis 1 set_net_increase_target",
+                "groups": [
+                    {
+                        "name": "Chassis 1 pcie cable card temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state": 70.0,
+                "delta": 255
+            },
+            {
+                "name": "Chassis 1 set_net_decrease_target",
+                "groups": [
+                    {
+                        "name": "Chassis 1 proc0 core temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "proc_0_core_dvfs_decrease_temp",
+                "delta": 50
+            },
+            {
+                "name": "Chassis 1 set_net_decrease_target",
+                "groups": [
+                    {
+                        "name": "Chassis 1 proc1 core temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "proc_1_core_dvfs_decrease_temp",
+                "delta": 50
+            },
+            {
+                "name": "Chassis 1 set_net_decrease_target",
+                "groups": [
+                    {
+                        "name": "Chassis 1 proc2 core temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "proc_2_core_dvfs_decrease_temp",
+                "delta": 50
+            },
+            {
+                "name": "Chassis 1 set_net_decrease_target",
+                "groups": [
+                    {
+                        "name": "Chassis 1 proc3 core temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "proc_3_core_dvfs_decrease_temp",
+                "delta": 50
+            },
+            {
+                "name": "Chassis 1 set_net_decrease_target",
+                "groups": [
+                    {
+                        "name": "Chassis 1 proc0 ioring temp",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "proc_0_ioring_dvfs_decrease_temp",
+                "delta": 50
+            },
+            {
+                "name": "Chassis 1 set_net_decrease_target",
+                "groups": [
+                    {
+                        "name": "Chassis 1 proc1 ioring temp",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "proc_1_ioring_dvfs_decrease_temp",
+                "delta": 50
+            },
+            {
+                "name": "Chassis 1 set_net_decrease_target",
+                "groups": [
+                    {
+                        "name": "Chassis 1 proc2 ioring temp",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "proc_2_ioring_dvfs_decrease_temp",
+                "delta": 50
+            },
+            {
+                "name": "Chassis 1 set_net_decrease_target",
+                "groups": [
+                    {
+                        "name": "Chassis 1 proc3 ioring temp",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "proc_3_ioring_dvfs_decrease_temp",
+                "delta": 50
+            },
+            {
+                "name": "Chassis 1 set_net_decrease_target",
+                "groups": [
+                    {
+                        "name": "dram temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "dram_dvfs_decrease_temp",
+                "delta": 40
+            },
+            {
+                "name": "Chassis 1 set_net_decrease_target",
+                "groups": [
+                    {
+                        "name": "Chassis 1 pmic temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "pmic_dvfs_decrease_temp",
+                "delta": 40
+            },
+            {
+                "name": "Chassis 1 set_net_decrease_target",
+                "groups": [
+                    {
+                        "name": "Chassis 1 internal memory buffer temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "intmb_dvfs_decrease_temp",
+                "delta": 40
+            },
+            {
+                "name": "Chassis 1 set_net_decrease_target",
+                "groups": [
+                    {
+                        "name": "Chassis 1 dram and external memory buffer temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "dram_extmb_dvfs_decrease_temp",
+                "delta": 40
+            },
+            {
+                "name": "Chassis 1 set_net_decrease_target",
+                "groups": [
+                    {
+                        "name": "Chassis 1 external memory buffer temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state_parameter_name": "extmb_dvfs_decrease_temp",
+                "delta": 40
+            },
+            {
+                "name": "Chassis 1 set_net_decrease_target",
+                "groups": [
+                    {
+                        "name": "Chassis 1 vdd vrm temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state": 79.0,
+                "delta": 30
+            },
+            {
+                "name": "Chassis 1 set_net_decrease_target",
+                "groups": [
+                    {
+                        "name": "Chassis 1 nvme temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state": 55.0,
+                "delta": 40
+            },
+            {
+                "name": "Chassis 1 set_net_decrease_target",
+                "groups": [
+                    {
+                        "name": "Chassis 1 planar temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state": 60.0,
+                "delta": 80
+            },
+            {
+                "name": "Chassis 1 set_net_decrease_target",
+                "groups": [
+                    {
+                        "name": "Chassis 1 flett temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state": 75.0,
+                "delta": 80
+            },
+            {
+                "name": "Chassis 1 set_net_decrease_target",
+                "groups": [
+                    {
+                        "name": "Chassis 1 pcie cable card temps",
+                        "interface": "xyz.openbmc_project.Sensor.Value",
+                        "property": {
+                            "name": "Value"
+                        }
+                    }
+                ],
+                "state": 65.0,
+                "delta": 80
+            }
+        ]
+    }
+]

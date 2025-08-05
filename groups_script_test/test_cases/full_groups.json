@@ -1,0 +1,1336 @@
+[
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],        
+        "name": "Chassis $chassis fan inventory",
+        "members": [
+            "/xyz/openbmc_project/inventory/system/chassis/motherboard/Chassis$chassis_fan0",
+            "/xyz/openbmc_project/inventory/system/chassis/motherboard/Chassis$chassis_fan1",
+            "/xyz/openbmc_project/inventory/system/chassis/motherboard/Chassis$chassis_fan2",
+            "/xyz/openbmc_project/inventory/system/chassis/motherboard/Chassis$chassis_fan3"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis fan0 rotor inventory",
+        "members": [
+            "/xyz/openbmc_project/inventory/system/chassis/motherboard/fan0/Chassis$chassis_fan0_0",
+            "/xyz/openbmc_project/inventory/system/chassis/motherboard/fan0/Chassis$chassis_fan0_1"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis fan1 rotor inventory",
+        "members": [
+            "/xyz/openbmc_project/inventory/system/chassis/motherboard/fan1/Chassis$chassis_fan1_0",
+            "/xyz/openbmc_project/inventory/system/chassis/motherboard/fan1/Chassis$chassis_fan1_1"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis fan2 rotor inventory",
+        "members": [
+            "/xyz/openbmc_project/inventory/system/chassis/motherboard/fan2/Chassis$chassis_fan2_0",
+            "/xyz/openbmc_project/inventory/system/chassis/motherboard/fan2/Chassis$chassis_fan2_1"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis fan3 rotor inventory",
+        "members": [
+            "/xyz/openbmc_project/inventory/system/chassis/motherboard/fan3/Chassis$chassis_fan3_0",
+            "/xyz/openbmc_project/inventory/system/chassis/motherboard/fan3/Chassis$chassis_fan3_1"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis occ objects",
+        "service": "org.open_power.OCC.Control",
+        "members": [
+            "/org/open_power/control/Chassis$chassis_occ0",
+            "/org/open_power/control/Chassis$chassis_occ1",
+            "/org/open_power/control/Chassis$chassis_occ2",
+            "/org/open_power/control/Chassis$chassis_occ3",
+            "/org/open_power/control/Chassis$chassis_occ4",
+            "/org/open_power/control/Chassis$chassis_occ5",
+            "/org/open_power/control/Chassis$chassis_occ6",
+            "/org/open_power/control/Chassis$chassis_occ7"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis proc0 core temps",
+        "service": "org.open_power.OCC.Control",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc0_core0_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc0_core0_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc0_core1_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc0_core1_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc0_core2_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc0_core2_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc0_core3_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc0_core3_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc0_core4_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc0_core4_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc0_core5_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc0_core5_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc0_core6_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc0_core6_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc0_core7_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc0_core7_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc0_core8_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc0_core8_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc0_core9_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc0_core9_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc0_core10_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc0_core10_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc0_core11_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc0_core11_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc0_core12_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc0_core12_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc0_core13_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc0_core13_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc0_core14_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc0_core14_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc0_core15_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc0_core15_1_temp"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis proc1 core temps",
+        "service": "org.open_power.OCC.Control",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc1_core0_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc1_core0_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc1_core1_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc1_core1_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc1_core2_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc1_core2_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc1_core3_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc1_core3_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc1_core4_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc1_core4_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc1_core5_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc1_core5_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc1_core6_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc1_core6_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc1_core7_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc1_core7_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc1_core8_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc1_core8_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc1_core9_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc1_core9_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc1_core10_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc1_core10_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc1_core11_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc1_core11_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc1_core12_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc1_core12_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc1_core13_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc1_core13_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc1_core14_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc1_core14_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc1_core15_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc1_core15_1_temp"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis proc2 core temps",
+        "service": "org.open_power.OCC.Control",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc2_core0_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc2_core0_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc2_core1_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc2_core1_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc2_core2_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc2_core2_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc2_core3_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc2_core3_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc2_core4_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc2_core4_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc2_core5_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc2_core5_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc2_core6_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc2_core6_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc2_core7_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc2_core7_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc2_core8_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc2_core8_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc2_core9_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc2_core9_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc2_core10_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc2_core10_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc2_core11_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc2_core11_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc2_core12_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc2_core12_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc2_core13_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc2_core13_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc2_core14_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc2_core14_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc2_core15_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc2_core15_1_temp"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis proc3 core temps",
+        "service": "org.open_power.OCC.Control",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc3_core0_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc3_core0_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc3_core1_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc3_core1_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc3_core2_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc3_core2_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc3_core3_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc3_core3_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc3_core4_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc3_core4_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc3_core5_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc3_core5_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc3_core6_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc3_core6_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc3_core7_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc3_core7_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc3_core8_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc3_core8_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc3_core9_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc3_core9_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc3_core10_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc3_core10_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc3_core11_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc3_core11_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc3_core12_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc3_core12_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc3_core13_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc3_core13_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc3_core14_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc3_core14_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc3_core15_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc3_core15_1_temp"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis proc4 core temps",
+        "service": "org.open_power.OCC.Control",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc4_core0_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc4_core0_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc4_core1_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc4_core1_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc4_core2_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc4_core2_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc4_core3_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc4_core3_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc4_core4_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc4_core4_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc4_core5_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc4_core5_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc4_core6_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc4_core6_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc4_core7_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc4_core7_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc4_core8_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc4_core8_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc4_core9_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc4_core9_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc4_core10_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc4_core10_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc4_core11_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc4_core11_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc4_core12_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc4_core12_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc4_core13_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc4_core13_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc4_core14_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc4_core14_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc4_core15_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc4_core15_1_temp"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis proc5 core temps",
+        "service": "org.open_power.OCC.Control",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc5_core0_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc5_core0_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc5_core1_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc5_core1_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc5_core2_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc5_core2_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc5_core3_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc5_core3_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc5_core4_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc5_core4_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc5_core5_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc5_core5_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc5_core6_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc5_core6_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc5_core7_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc5_core7_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc5_core8_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc5_core8_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc5_core9_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc5_core9_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc5_core10_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc5_core10_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc5_core11_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc5_core11_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc5_core12_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc5_core12_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc5_core13_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc5_core13_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc5_core14_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc5_core14_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc5_core15_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc5_core15_1_temp"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis proc6 core temps",
+        "service": "org.open_power.OCC.Control",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc6_core0_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc6_core0_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc6_core1_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc6_core1_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc6_core2_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc6_core2_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc6_core3_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc6_core3_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc6_core4_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc6_core4_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc6_core5_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc6_core5_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc6_core6_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc6_core6_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc6_core7_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc6_core7_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc6_core8_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc6_core8_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc6_core9_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc6_core9_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc6_core10_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc6_core10_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc6_core11_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc6_core11_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc6_core12_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc6_core12_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc6_core13_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc6_core13_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc6_core14_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc6_core14_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc6_core15_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc6_core15_1_temp"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis proc7 core temps",
+        "service": "org.open_power.OCC.Control",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc7_core0_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc7_core0_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc7_core1_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc7_core1_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc7_core2_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc7_core2_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc7_core3_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc7_core3_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc7_core4_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc7_core4_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc7_core5_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc7_core5_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc7_core6_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc7_core6_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc7_core7_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc7_core7_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc7_core8_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc7_core8_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc7_core9_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc7_core9_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc7_core10_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc7_core10_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc7_core11_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc7_core11_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc7_core12_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc7_core12_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc7_core13_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc7_core13_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc7_core14_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc7_core14_1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc7_core15_0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc7_core15_1_temp"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis proc0 ioring temp",
+        "service": "org.open_power.OCC.Control",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc0_ioring_temp"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis proc1 ioring temp",
+        "service": "org.open_power.OCC.Control",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc1_ioring_temp"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis proc2 ioring temp",
+        "service": "org.open_power.OCC.Control",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc2_ioring_temp"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis proc3 ioring temp",
+        "service": "org.open_power.OCC.Control",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc3_ioring_temp"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis proc4 ioring temp",
+        "service": "org.open_power.OCC.Control",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc4_ioring_temp"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis proc5 ioring temp",
+        "service": "org.open_power.OCC.Control",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc5_ioring_temp"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis proc6 ioring temp",
+        "service": "org.open_power.OCC.Control",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc6_ioring_temp"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis proc7 ioring temp",
+        "service": "org.open_power.OCC.Control",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc7_ioring_temp"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis dram temps",
+        "service": "org.open_power.OCC.Control",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm0_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm1_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm2_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm3_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm4_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm5_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm6_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm7_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm8_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm9_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm10_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm11_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm12_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm13_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm14_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm15_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm16_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm17_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm18_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm19_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm20_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm21_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm22_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm23_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm24_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm25_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm26_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm27_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm28_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm29_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm30_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm31_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm32_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm33_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm34_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm35_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm36_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm37_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm38_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm39_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm40_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm41_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm42_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm43_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm44_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm45_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm46_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm47_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm48_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm49_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm50_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm51_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm52_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm53_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm54_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm55_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm56_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm57_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm58_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm59_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm60_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm61_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm62_dram_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm63_dram_temp"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis dram dvfs temp",
+        "service": "org.open_power.OCC.Control",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm_dram_dvfs_temp"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis pmic temps",
+        "service": "org.open_power.OCC.Control",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm0_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm1_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm2_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm3_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm4_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm5_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm6_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm7_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm8_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm9_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm10_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm11_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm12_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm13_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm14_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm15_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm16_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm17_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm18_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm19_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm20_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm21_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm22_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm23_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm24_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm25_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm26_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm27_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm28_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm29_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm30_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm31_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm32_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm33_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm34_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm35_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm36_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm37_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm38_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm39_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm40_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm41_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm42_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm43_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm44_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm45_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm46_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm47_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm48_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm49_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm50_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm51_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm52_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm53_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm54_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm55_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm56_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm57_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm58_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm59_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm60_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm61_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm62_pmic_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm63_pmic_temp"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis pmic dvfs temp",
+        "service": "org.open_power.OCC.Control",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm_pmic_dvfs_temp"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis internal memory buffer temps",
+        "service": "org.open_power.OCC.Control",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm0_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm1_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm2_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm3_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm4_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm5_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm6_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm7_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm8_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm9_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm10_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm11_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm12_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm13_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm14_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm15_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm16_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm17_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm18_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm19_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm20_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm21_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm22_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm23_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm24_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm25_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm26_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm27_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm28_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm29_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm30_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm31_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm32_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm33_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm34_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm35_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm36_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm37_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm38_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm39_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm40_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm41_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm42_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm43_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm44_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm45_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm46_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm47_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm48_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm49_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm50_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm51_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm52_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm53_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm54_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm55_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm56_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm57_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm58_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm59_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm60_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm61_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm62_intmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm63_intmb_temp"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis internal memory buffer dvfs temp",
+        "service": "org.open_power.OCC.Control",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm_intmb_dvfs_temp"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        // Repurposed as DRAM temperature sensors for 4U DDIMMs
+        "name": "Chassis $chassis dram and external memory buffer temps",
+        "service": "org.open_power.OCC.Control",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm0_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm1_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm2_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm3_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm4_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm5_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm6_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm7_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm8_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm9_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm10_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm11_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm12_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm13_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm14_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm15_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm16_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm17_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm18_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm19_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm20_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm21_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm22_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm23_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm24_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm25_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm26_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm27_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm28_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm29_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm30_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm31_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm32_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm33_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm34_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm35_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm36_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm37_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm38_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm39_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm40_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm41_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm42_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm43_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm44_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm45_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm46_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm47_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm48_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm49_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm50_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm51_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm52_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm53_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm54_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm55_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm56_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm57_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm58_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm59_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm60_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm61_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm62_dram_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm63_dram_extmb_temp"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis dram and external memory buffer dvfs temp",
+        "service": "org.open_power.OCC.Control",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm_dram_extmb_dvfs_temp"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        // Repurposed as PMIC temperature sensors for 4U DDIMMs
+        "name": "external memory buffer temps",
+        "service": "org.open_power.OCC.Control",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm0_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm1_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm2_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm3_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm4_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm5_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm6_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm7_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm8_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm9_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm10_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm11_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm12_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm13_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm14_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm15_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm16_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm17_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm18_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm19_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm20_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm21_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm22_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm23_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm24_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm25_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm26_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm27_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm28_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm29_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm30_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm31_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm32_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm33_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm34_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm35_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm36_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm37_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm38_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm39_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm40_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm41_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm42_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm43_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm44_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm45_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm46_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm47_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm48_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm49_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm50_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm51_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm52_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm53_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm54_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm55_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm56_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm57_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm58_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm59_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm60_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm61_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm62_extmb_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm63_extmb_temp"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis external memory buffer dvfs temp",
+        "service": "org.open_power.OCC.Control",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_dimm_extmb_dvfs_temp"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis vdd vrm temps",
+        "service": "org.open_power.OCC.Control",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_vrm_vdd0_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_vrm_vdd1_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_vrm_vdd2_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_vrm_vdd3_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_vrm_vdd4_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_vrm_vdd5_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_vrm_vdd6_temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_vrm_vdd7_temp"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis proc 0 core dvfs temp",
+        "service": "org.open_power.OCC.Control",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc0_core_dvfs_temp"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis proc 1 core dvfs temp",
+        "service": "org.open_power.OCC.Control",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc1_core_dvfs_temp"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis proc 2 core dvfs temp",
+        "service": "org.open_power.OCC.Control",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc2_core_dvfs_temp"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis proc 3 core dvfs temp",
+        "service": "org.open_power.OCC.Control",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc3_core_dvfs_temp"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis proc 4 core dvfs temp",
+        "service": "org.open_power.OCC.Control",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc4_core_dvfs_temp"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis proc 5 core dvfs temp",
+        "service": "org.open_power.OCC.Control",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc5_core_dvfs_temp"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis proc 6 core dvfs temp",
+        "service": "org.open_power.OCC.Control",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc6_core_dvfs_temp"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis proc 7 core dvfs temp",
+        "service": "org.open_power.OCC.Control",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc7_core_dvfs_temp"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis proc 0 ioring dvfs temp",
+        "service": "org.open_power.OCC.Control",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc0_ioring_dvfs_temp"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis proc 1 ioring dvfs temp",
+        "service": "org.open_power.OCC.Control",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc1_ioring_dvfs_temp"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis proc 2 ioring dvfs temp",
+        "service": "org.open_power.OCC.Control",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc2_ioring_dvfs_temp"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis proc 3 ioring dvfs temp",
+        "service": "org.open_power.OCC.Control",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc3_ioring_dvfs_temp"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis proc 4 ioring dvfs temp",
+        "service": "org.open_power.OCC.Control",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc4_ioring_dvfs_temp"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis proc 5 ioring dvfs temp",
+        "service": "org.open_power.OCC.Control",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc5_ioring_dvfs_temp"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis proc 6 ioring dvfs temp",
+        "service": "org.open_power.OCC.Control",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc6_ioring_dvfs_temp"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis proc 7 ioring dvfs temp",
+        "service": "org.open_power.OCC.Control",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_proc7_ioring_dvfs_temp"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis nvme temps",
+        "service": "xyz.openbmc_project.NVMeSensor",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_NVMe_1_Temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_NVMe_2_Temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_NVMe_3_Temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_NVMe_4_Temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_NVMe_5_Temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_NVMe_6_Temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_NVMe_7_Temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_NVMe_8_Temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_NVMe_9_Temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_NVMe_10_Temp"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis planar temps",
+        "service": "xyz.openbmc_project.HwmonTempSensor",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_PCIE_0_Temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_PCIE_1_Temp"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        // Bear Lake card
+        "name": "Chassis $chassis pcie cable card temps",
+        "service": "xyz.openbmc_project.HwmonTempSensor",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_PCIe_Cable_Card_C1_Temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_PCIe_Cable_Card_C2_Temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_PCIe_Cable_Card_C3_Temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_PCIe_Cable_Card_C4_Temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_PCIe_Cable_Card_C5_Temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_PCIe_Cable_Card_C6_Temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_PCIe_Cable_Card_C7_Temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_PCIe_Cable_Card_C8_Temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_PCIe_Cable_Card_C9_Temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_PCIe_Cable_Card_C10_Temp",
+            "/xyz/openbmc_project/sensors/temperature/Chassis$chassis_PCIe_Cable_Card_C11_Temp"
+        ]
+    },
+    {
+        "name": "ambient temp",
+        "service": "xyz.openbmc_project.VirtualSensor",
+        "members": [
+            "/xyz/openbmc_project/sensors/temperature/Ambient_Virtual_Temp"
+        ]
+    },
+    {
+        "name": "altitude",
+        "service": "xyz.openbmc_project.VirtualSensor",
+        "members": ["/xyz/openbmc_project/sensors/altitude/Altitude"]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis pcie cards",
+        "members": [
+            "/xyz/openbmc_project/inventory/system/chassis/motherboard/pcieslot1/Chassis$chassis_pcie_card1",
+            "/xyz/openbmc_project/inventory/system/chassis/motherboard/pcieslot2/Chassis$chassis_pcie_card2",
+            "/xyz/openbmc_project/inventory/system/chassis/motherboard/pcieslot3/Chassis$chassis_pcie_card3",
+            "/xyz/openbmc_project/inventory/system/chassis/motherboard/pcieslot4/Chassis$chassis_pcie_card4",
+            "/xyz/openbmc_project/inventory/system/chassis/motherboard/pcieslot5/Chassis$chassis_pcie_card5",
+            "/xyz/openbmc_project/inventory/system/chassis/motherboard/pcieslot6/Chassis$chassis_pcie_card6",
+            "/xyz/openbmc_project/inventory/system/chassis/motherboard/pcieslot7/Chassis$chassis_pcie_card7",
+            "/xyz/openbmc_project/inventory/system/chassis/motherboard/pcieslot8/Chassis$chassis_pcie_card8",
+            "/xyz/openbmc_project/inventory/system/chassis/motherboard/pcieslot9/Chassis$chassis_pcie_card9",
+            "/xyz/openbmc_project/inventory/system/chassis/motherboard/pcieslot10/Chassis$chassis_pcie_card10",
+            "/xyz/openbmc_project/inventory/system/chassis/motherboard/pcieslot11/Chassis$chassis_pcie_card11"
+        ]
+    },
+    {
+        "expand": [
+            {
+                "name": "chassis",
+                "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
+            }
+        ],
+        "name": "Chassis $chassis pcie slots",
+        "members": [
+            "/xyz/openbmc_project/inventory/system/chassis/motherboard/Chassis$chassis_pcieslot1",
+            "/xyz/openbmc_project/inventory/system/chassis/motherboard/Chassis$chassis_pcieslot2",
+            "/xyz/openbmc_project/inventory/system/chassis/motherboard/Chassis$chassis_pcieslot3",
+            "/xyz/openbmc_project/inventory/system/chassis/motherboard/Chassis$chassis_pcieslot4",
+            "/xyz/openbmc_project/inventory/system/chassis/motherboard/Chassis$chassis_pcieslot5",
+            "/xyz/openbmc_project/inventory/system/chassis/motherboard/Chassis$chassis_pcieslot6",
+            "/xyz/openbmc_project/inventory/system/chassis/motherboard/Chassis$chassis_pcieslot7",
+            "/xyz/openbmc_project/inventory/system/chassis/motherboard/Chassis$chassis_pcieslot8",
+            "/xyz/openbmc_project/inventory/system/chassis/motherboard/Chassis$chassis_pcieslot9",
+            "/xyz/openbmc_project/inventory/system/chassis/motherboard/Chassis$chassis_pcieslot10",
+            "/xyz/openbmc_project/inventory/system/chassis/motherboard/Chassis$chassis_pcieslot11"
+        ]
+    }
+]
