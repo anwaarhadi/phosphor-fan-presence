@@ -5,7 +5,7 @@
                 "name": "chassis",
                 "values": ["0", "1", "2", "3", "4", "5", "6", "7"]
             }
-        ],        
+        ],
         "name": "Chassis $chassis fan inventory",
         "members": [
             "/xyz/openbmc_project/inventory/system/chassis/motherboard/Chassis$chassis_fan0",
